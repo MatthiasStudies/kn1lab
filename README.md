@@ -1,3 +1,9 @@
+Information about each assignment can be found in their respective folder
+
+> Lecture "Kommunikationsnetze 1" by Prof. Dr. Oliver P. Waldhorst at the [HKA](https://h-ka.de/) 2024/2025
+
+The `setup/` directory contains a custom Dockerimage to avoid using VirtualBox or QEMU
+
 # Labor Kommunikationsnetze 1
 
 ## Aufsetzen der Umgebung

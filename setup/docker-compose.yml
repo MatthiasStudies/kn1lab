@@ -1,0 +1,9 @@
+services:
+  kn1lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - SSH_PUB_KEY=${SSH_PUB_KEY:?Build argument SSH_PUB_KEY is required}
+    image: kn1lab
+    restart: always
